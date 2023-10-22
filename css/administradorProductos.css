@@ -1,0 +1,72 @@
+.main-adm h1{
+    font-family: 'oswald',sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+.boton-añadir{
+    font-family: 'oswald',sans-serif;
+}
+.menu{
+    background-color: rgb(164, 131, 195);
+}
+label{
+    font-family: 'oswald',sans-serif;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.filtro input{
+    font-family: 'oswald',sans-serif;
+}
+.filtro input:hover{
+    border:solid 2px rgb(83, 24, 137) ;
+    font-size: 16px;
+}
+
+table th{
+    font-family: 'oswald',sans-serif;
+    text-decoration: underline;
+}
+tbody{
+    font-family: 'oswald',sans-serif;
+}
+#formularioProducto{
+    border: solid 2px rgb(83, 24, 137);
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+}
+.modal-body{
+    font-family: 'oswald',sans-serif;
+    color: black;
+    background-color: rgb(164, 131, 195);
+}
+.modal-footer{
+    font-family: 'oswald',sans-serif;
+}
+.table-image img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 2px black;
+}
+.table-description {
+    font-size: .8rem;
+    font-family: 'oswald',sans-serif;
+    display: -webkit-box;
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.86rem;
+    text-decoration: none;
+}
+

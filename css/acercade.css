@@ -1,0 +1,30 @@
+.Main-seccion-Nosotros{
+   background-color:aliceblue;
+   font-family: 'oswald',sans-serif;
+   font-size: 20px;
+   min-height: 700px;
+}
+.main-seccion{
+background-color: black;
+padding: 10px;
+min-height: 700px;
+}
+.main-seccion span{
+    color:rgb(184, 177, 177);
+    font-size: 22px;
+}
+#Programadora{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding-left: 15px;
+}
+.seccionprogramador{
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+

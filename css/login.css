@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Oswald&family=Roboto+Condensed&family=Teko:wght@300&display=swap');
+body{
+    background: url(https://img.freepik.com/fotos-premium/fondo-cielo-purpura-diseno-violeta-abstracto_124507-13639.jpg?w=740);
+    background-size: cover;
+    padding: 10px;
+    margin: 15px;
+    height: fit-content; 
+}
+main h5{
+    font-family: 'oswald',sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(157, 23, 164);
+    text-decoration: underline;
+}
+.login-container {
+    height: 100dvh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.form-label{
+    font-family: 'oswald',sans-serif;
+}
+.form-control{
+    font-family: 'oswald',sans-serif;
+}
+.boton-login{
+    background-color: rgb(157, 23, 164);
+    color: white;
+    
+    font-family: 'oswald',sans-serif;
+}
+.boton-login:hover{
+    background-color: white;
+    border: solid 2px rgb(70, 10, 73);
+    color: black;
+    font-size: 16px;
+}

@@ -1,0 +1,40 @@
+.contact-total{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 15px;
+    min-height: 800px;
+}
+.titulo{
+    text-align: center;
+    font-family: 'oswald',sans-serif;
+    text-decoration: underline;
+}
+.contact-container{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.contact-form{
+    font-family: 'oswald',sans-serif;
+    font-size: 22px;
+}
+.map-container{
+    display: flex;
+    flex-direction: column;
+}
+.contact-map{
+    height: 416px;
+    width: auto;
+    padding: 3px;
+    background-color: black;
+}
+.boton-contactar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.contact-form-container{
+    padding: 1rem 2rem;
+}

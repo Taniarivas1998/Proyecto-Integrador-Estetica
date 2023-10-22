@@ -1,0 +1,47 @@
+.main-adm h1{
+    font-family: 'oswald',sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+.menu{
+    background-color: rgb(164, 131, 195);
+}
+label{
+    font-family: 'oswald',sans-serif;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.filtro input{
+    font-family: 'oswald',sans-serif;
+}
+.filtro input:hover{
+    border:solid 2px rgb(83, 24, 137) ;
+    font-size: 16px;
+}
+table th{
+    font-family: 'oswald',sans-serif;
+    text-decoration: underline;
+}
+tbody{
+    font-family: 'oswald',sans-serif;
+}
+#formularioUsuario{
+    border: solid 2px rgb(83, 24, 137);
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+}
+.modal-body{
+    font-family: 'oswald',sans-serif;
+    color: black;
+    background-color: rgb(164, 131, 195);
+}
+.modal-footer{
+    font-family: 'oswald',sans-serif;
+}
+ 
