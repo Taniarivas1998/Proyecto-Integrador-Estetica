@@ -68,7 +68,7 @@ const loginForm = document.getElementById("login")
         localStorage.setItem( "currentUser", JSON.stringify(userExist)   )
     
         setTimeout(function() {
-            window.location.href = '../index.html'
+            window.location.href = '/index.html'
         }, 1500)
     
     })
