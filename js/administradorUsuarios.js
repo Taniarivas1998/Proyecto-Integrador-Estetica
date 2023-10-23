@@ -1,7 +1,8 @@
-let user =JSON.parse(localStorage.getItem("usuarios"))|| usuariosInicio
+const user =JSON.parse(localStorage.getItem("usuarios"))|| usuariosInicio
 if( JSON.parse(localStorage.getItem("usuarios")) === null){
     localStorage.setItem("usuarios",JSON.stringify(usuariosInicio))
 }
+
 let idEditar;
 const btn = document.querySelector('button.btn[type="submit"]')
 const tableBodyHTML = document.querySelector("#table-body")
@@ -67,8 +68,6 @@ formularioProductoHTML.addEventListener('submit', (evt) => {
     el.tituloNombre.focus()
 })
 
-
-
 function pintarProductos(arrayAPintar) {
 
     tableBodyHTML.innerHTML = "";
@@ -90,7 +89,6 @@ function pintarProductos(arrayAPintar) {
             </tr>`
     })
 }
-
 
 //Funcion para filtrar usuario
 inputFiltrarHTML.addEventListener('keyup', (evt) => {

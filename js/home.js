@@ -151,7 +151,7 @@ function pintarProducto(productosAPintar){
                      </div>
                  </article>
               </div>
-        `
+        `;
     })
 
     

@@ -10,7 +10,8 @@ if (currentUser) {
 		navIcons.innerHTML = `
         <i class="fa-solid fa-user text-white"></i>
        `;
-		navInfo.innerHTML = `<div class="dropdown-center">
+		navInfo.innerHTML = 
+        `<div class="dropdown-center">
         <a class="btn btn-outline-light nav-name border-2 dropdown-toggle" href="#" role="button"
         data-bs-toggle="dropdown" aria-expanded="true">
         ${currentUser.fullname}
@@ -41,7 +42,7 @@ if (currentUser) {
         </li>
         <li class="px-2"><a class="dropdown-item nav-register btn btn-danger nav-logout text-center rounded-2" href="#" onclick="logout()">Logout</a></li>
         </ul>
-        </div>`;
+        </div>`
 	}
 }
 

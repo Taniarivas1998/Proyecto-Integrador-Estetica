@@ -101,7 +101,7 @@ function pintarProductos(arrayAPintar) {
                     </div>
                     
                 </td>
-            </tr>`
+            </tr>`;
     })
 }
 
