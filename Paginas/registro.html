@@ -65,25 +65,25 @@
 <section class="registro">
   <h1 class="registro-usuario">REGISTRO DE USARIO </h1>
    <section class="registro-form">
-    <form class="formularioRegistro">
+    <form action="" class="formularioRegistro">
       <div class="mb-3">
         <label for="NombreyApellido" class="form-label">Apellido y Nombre</label>
         <input type="text" name="nombre-completo" class="form-control" id="nombre" placeholder="Rivas Tania Rocio" minlength="3" maxlength="20" required >
       </div>
       <div class="mb-3 container-email">
-        <label for="Email" class="form-label">Email</label>
-        <input type="email" name="correo-electronico" class="form-control" id="email" placeholder="name123@example.com" minlength="5" maxlength="50" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+        <label for="emailRegister" class="form-label">Email</label>
+        <input type="email" name="correo-electronico" class="form-control" id="emailRegister" placeholder="name123@example.com" minlength="5" maxlength="50" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
       </div>
       <div class="mb-3">
-        <label for="contraseña" class="form-label">Contraseña</label>
-        <input type="password" name="contraseña" id="contraseña" class="form-control " aria-describedby="Notaparacontraseña" required>
+        <label for="password" class="form-label">Contraseña</label>
+        <input type="password" name="contraseña" id="password" class="form-control " aria-describedby="Notaparacontraseña" required>
         <div id="Notaparacontraseña" class="form-text ">
           Su contraseña debe tener entre 8 y 20 caracteres, contener letras y números, y no debe contener espacios, caracteres especiales ni emoji.
         </div>
       </div>
       <div class="mb-3 container-passwordRepeat">
-        <label for="repetcontraseña" class="form-label">Repetir Contraseña</label>
-        <input type="password" name="repetir-contraseña" id="repitcontraseña" class="form-control" required>
+        <label for="passwordrepet" class="form-label">Repetir Contraseña</label>
+        <input type="password" name="repetir-contraseña" id="passwordrepet" class="form-control" required>
       </div>
       <div class="mb-3">
         <label for="fecha de Naciminto" class="form-label">Fecha de Naciminto</label>

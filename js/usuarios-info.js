@@ -1,12 +1,11 @@
 const currentUser = JSON.parse(localStorage.getItem("currentUser"));
-
 const navIcons = document.getElementById("nav-icons");
 const navInfo = document.getElementById("nav-info");
 const navRegister = document.getElementById("nav-register");
 
 
 if (currentUser) {
-	if (currentUser.role === "ROLE_ADMIN") {
+	if (currentUser.role === "Administrador") {
 
 		navIcons.innerHTML = `
         <i class="fa-solid fa-user text-white"></i>
